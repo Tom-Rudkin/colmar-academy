@@ -1,14 +1,27 @@
-html {
-    padding: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+body{
     margin: 0px;
     padding: 0px;
-
-
+}
 .Nav {
-    display: inline-block;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
     width: 100%;
-    height: 65px;
-    position: fixed:
-    
+    height: 64px;
+}
 
-}}
+.Logo {
+padding: 24px;
+}
+
+li,a {
+    text-decoration: none;
+    display: inline;
+    margin-right: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: inherit
+}
