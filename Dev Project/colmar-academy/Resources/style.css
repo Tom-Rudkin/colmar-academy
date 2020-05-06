@@ -63,9 +63,6 @@ li,a {
 
 .main {
     border: 2px solid black;
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .main-img img {
@@ -81,16 +78,15 @@ li,a {
     flex-wrap: wrap;
 }
 
-.sub-main img {
-    padding: 16px;
-}
-
-.sub-main {
+.sub-main1 .sub-main2 .sub-main3 {
     border: 1px solid black;
     display: flex;
-    
+    flex-direction: column;
+
 }
 
 .main-info {
-    width: 65%
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
 }
