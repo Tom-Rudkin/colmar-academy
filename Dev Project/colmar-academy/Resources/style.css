@@ -94,22 +94,36 @@ li,a {
 /*Main*/
 
 .main{
+    width: 59.9%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    border: 1px solid #cfcfcf ;
 }
 
+
+
 .main-img {
-    border: 1px solid black;
-    padding: 32px 24px;
-    width: 60%;
+    padding: 32px 25px;
+    width: 100%;
 }
 .main-img img {
     width: 100%;
 }
 
+.sub {
+    float: right;
+    width: 40%;
+    padding-top: 32px;
+}
+
 .sub-main {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    background-color: #cfcfcf;
+    border: 1px solid #adacac;
     
 }
 
@@ -117,7 +131,6 @@ li,a {
     padding: 16px;
 }
 .main-info {
-    border: 1px solid rgb(255, 0, 0);  
-    width: 100%;
-   
+    width: 100%;  
+    text-align: left;
 }
