@@ -97,8 +97,6 @@ li,a {
     width: 59.9%;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    position: absolute;
     border: 1px solid #cfcfcf ;
 }
 
@@ -114,8 +112,11 @@ li,a {
 
 .sub {
     float: right;
+    position: relative;
+    bottom: 662px;
     width: 40%;
     padding-top: 32px;
+
 }
 
 .sub-main {
@@ -133,4 +134,19 @@ li,a {
 .main-info {
     width: 100%;  
     text-align: left;
+}
+
+/*Start Learning*/
+
+.course {
+    background-color: #b3b3b3 ;
+    padding: 72px;
+}
+
+.courses {
+    border: 1px solid grey;
+    background-color: white;
+    margin: 32px;
+    display: flex;
+    flex-direction: column;
 }
