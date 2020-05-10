@@ -105,6 +105,7 @@ li,a {
 .main-img {
     padding: 32px 25px;
     width: 100%;
+    float: left;
 }
 .main-img img {
     width: 100%;
@@ -113,16 +114,17 @@ li,a {
 .sub {
     float: right;
     position: relative;
-    bottom: 662px;
+    bottom: 638px;
     width: 40%;
     padding-top: 32px;
+    z-index: ;
 
 }
 
 .sub-main {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    /*flex-direction: row;
+    align-items: center;*/
     background-color: #cfcfcf;
     border: 1px solid #adacac;
     
@@ -141,6 +143,7 @@ li,a {
 .course {
     background-color: #b3b3b3 ;
     padding: 72px;
+    padding-top: 600px;
 }
 
 .courses {
@@ -150,3 +153,13 @@ li,a {
     display: flex;
     flex-direction: column;
 }
+.course .info {
+    padding: 16px;
+}
+
+.start-title {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
